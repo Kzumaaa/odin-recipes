@@ -1,0 +1,27 @@
+/* * {
+    border: 1px solid green;
+} */
+
+html {
+    font-family: Georgia, Times ,"Times New Roman" ,"serif";
+}
+
+.center {
+    text-align: center;
+}
+
+#fst-title {
+    display: inline;
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+
+}
