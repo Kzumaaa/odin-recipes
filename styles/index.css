@@ -3,6 +3,7 @@
 } */
 
 html {
+    background-color: lightskyblue;
     font-family: Georgia, Times ,"Times New Roman" ,"serif";
 }
 
@@ -14,9 +15,15 @@ html {
     display: inline;
 }
 
+a {
+    border: 3px groove coral;
+}
+
 .flexible {
     display: flex;
     justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .star {
