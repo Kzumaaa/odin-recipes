@@ -15,20 +15,27 @@ html {
     display: inline;
 }
 
-a {
-    border: 3px groove coral;
-}
-
-.flexible {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
 .star {
     display: inline-flex;
     margin: 0px;
     padding: 0px;
 
 }
+
+.flexible {
+    display: flex;
+}
+
+.flexible a {
+    justify-content: space-between;
+    border: 4px solid coral;
+    flex: 1;
+    margin: 4px;
+}
+
+a img {
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
